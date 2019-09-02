@@ -112,7 +112,7 @@
                     <showDeprecation>true</showDeprecation>
                     <fork>true</fork>
                     <compilerArgs>
-                        <arg>-Xlint -parameters</arg>
+                        <arg>-Xlint</arg>
                     </compilerArgs>
                     <!-- Prevents an endPosTable exception during compilation -->
                     <useIncrementalCompilation>false</useIncrementalCompilation>
