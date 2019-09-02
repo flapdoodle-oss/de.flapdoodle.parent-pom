@@ -112,7 +112,7 @@
                     <showDeprecation>true</showDeprecation>
                     <fork>true</fork>
                     <compilerArgs>
-                        <arg>-Xlint</arg>
+                        <arg>-Xlint -parameters</arg>
                     </compilerArgs>
                     <!-- Prevents an endPosTable exception during compilation -->
                     <useIncrementalCompilation>false</useIncrementalCompilation>
@@ -334,6 +334,7 @@
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <configuration>
                             <additionalparam>-Xdoclint:none</additionalparam>
+                            <source>8</source>
                         </configuration>
                     </plugin>
                 </plugins>
